@@ -13,7 +13,7 @@ screen = Screen()
 screen.setup(WIDTH, HEIGHT)
 screen.tracer(0)
 
-
+scoreboard = Scoreboard((-200, 250))
 
 #Creating player
 player = Player()
@@ -36,7 +36,17 @@ while game_is_on:
     screen.update()
 
     # Detecting collision
+    for car in manager.cars:
+        if car.distance(player) < 20:
+            scoreboard.reset()
+            manager.level_0()
+            player.reset()
 
+    # Detect winning
+    if player.ycor() > 290:
+        player.reset()
+        manager.next_level()
+        scoreboard.increment()
 
     # Generating cars
     if loop == 6:
@@ -48,8 +58,7 @@ while game_is_on:
         )
         loop = 0
 
-#TODO 1: detect collision
-#TODO 2: reach the top
-#TODO 3: create scoreboard
-#TODO 4: increment level
-#TODO 5: delete car when it go to edge
+    # Excluding cars
+    if len(manager.cars) > 0:
+        x_coord = - WIDTH / 2
+        manager.delete_car(x_coord)

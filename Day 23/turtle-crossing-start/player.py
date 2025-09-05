@@ -13,5 +13,9 @@ class Player(Turtle):
         self.goto(STARTING_POSITION)
         self.setheading(90)
 
+    def reset(self):
+        self.goto(STARTING_POSITION)
+
+
     def move_up(self):
         self.forward(MOVE_DISTANCE)

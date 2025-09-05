@@ -14,6 +14,18 @@ class CarManager:
         self.cars = []
         self.speed = STARTING_MOVE_DISTANCE
 
+    def level_0(self):
+        for car in self.cars:
+            car.hideturtle()
+        self.cars.clear()
+        self.speed = STARTING_MOVE_DISTANCE
+
+    def next_level(self):
+        for car in self.cars:
+            car.hideturtle()
+        self.cars.clear()
+        self.speed += MOVE_INCREMENT
+
     def create_car(self, coord):
         chosen_color = choice(COLORS)
         self.cars.append(
@@ -22,8 +34,12 @@ class CarManager:
 
     def go(self):
         for car in self.cars:
-            car.move_car(STARTING_MOVE_DISTANCE)
+            car.move_car(self.speed)
 
+    def delete_car(self, x_coord):
+        if self.cars[0].xcor() < x_coord:
+            self.cars[0].hideturtle()
+            del self.cars[0]
 
 
 
