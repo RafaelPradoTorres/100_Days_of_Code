@@ -1,6 +1,5 @@
 from os import listdir
 
-#TODO: Create a letter using starting_letter.txt
 #for each name in invited_names.txt
 
 invited_names = "./Input/Names/invited_names.txt"
