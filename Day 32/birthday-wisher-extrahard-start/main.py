@@ -1,4 +1,6 @@
 ##################### Extra Hard Starting Project ######################
+# can use python anywhere to automate it!!
+
 import pandas as pd
 import datetime as dt
 from random import randint
@@ -15,7 +17,6 @@ today = (today.month, today.day)
 birthday_dict = {(data_row.month, data_row.day):data_row for (index, data_row) in data.iterrows()}
 try:
     niver_de_hoje = birthday_dict[today]
-
 except KeyError:
     print("Sem aniversários hoje, amigo!!!")
 else:
