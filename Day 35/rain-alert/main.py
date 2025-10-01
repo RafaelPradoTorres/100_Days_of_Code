@@ -13,7 +13,6 @@ from dotenv import load_dotenv
 load_dotenv("C:/Python/EnvironmentVariables/.env")
 api_key = os.getenv("OWM_API_KEY")
 # api_key = os.environ.get("OWM_API_KEY")
-# api_key = "871ada07c703d6f839f36cf03cca2023"
 ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
 
 account_sid = os.getenv("OWM_SID")
