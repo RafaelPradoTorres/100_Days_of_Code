@@ -41,14 +41,14 @@ Number mannipulation:
 - 123_456_789 == 123456789, but it's easier to read
 
 operations:
-x - y
-x + y
-x * y
-x / y
-x % y
-x // y
-x ** y
-(x + y) * z
+- x - y
+- x + y
+- x * y
+- x / y
+- x % y
+- x // y
+- x ** y
+- (x + y) * z
 
 Data types:
 - integer
@@ -68,25 +68,25 @@ conditionals:
 -   ...
 
 Logical operators:
-x > y
-x < y
-x <= y
-x >= y
-x == y
-x != y
+- x > y
+- x < y
+- x <= y
+- x >= y
+- x == y
+- x != y
 
 Multiline string:
-'''
-line 1 content
-line 2 content
-.
-.
-line n content
-'''
+- '''
+- line 1 content
+- line 2 content
+- .
+- .
+- line n content
+- '''
 
 Atualizing variables:
-+=
--=
-*=
-/=
+- +=
+- -=
+- *=
+- /=
 
