@@ -7,7 +7,7 @@ Well, in this document, I'll explain each af the projects, and what I've learned
 
 ## 1st week
 
-###Day 01 - Basic Functions, string manipulation and variables
+### Day 01 - Basic Functions, string manipulation and variables
 Functions:
 - print()
 - len()
@@ -20,7 +20,7 @@ String manipulation:
 - new line: '\n'
 - concatenation: <string> + <string>
 
-###Day 02 - Data Types, errors and number manipulation
+### Day 02 - Data Types, errors and number manipulation
 Function:
 - type(<var>)
 
@@ -56,7 +56,7 @@ Data types:
 - boolean
 - string
 
-###Day 03 - Logic
+### Day 03 - Logic
 conditionals:
 - if <condition1>:
 -   ...
