@@ -92,6 +92,7 @@ Atualizing variables:
 
 ### Day 04 - Import modules | Lists
 - import <mudule name>
+- from <module name> import <something>
 
 Random module:
 - randint(x, y) -> integer between (including) x and y
@@ -138,4 +139,84 @@ String methods
 <img width="149" height="248" alt="image" src="https://github.com/user-attachments/assets/91571884-049b-4f3e-b560-d8c3796158ad" />
   
 ## 2nd week
-### Day 08 - 
+### Day 08 - Arguments in functions
+Argument in a function
+- def func_name(arg1, arg2, ...):
+- ...
+
+Calling the function with positional arguments:
+- func_name(value1, value2, ...):
+
+You can use keywords arguments:
+- func_name(arg1= value1, arg2= value2)
+
+Return the position of an item in a list:
+- .index()
+
+Comments:
+- # the message ignored by the interpreter
+- # TODO 1 : asdjasldjsalkdj
+
+### Day 09 - Introduction do dictionaries | while loop
+Defining a dictionary:
+- dict_name = {
+- 'key1' = value1
+- ...
+- 'keyN' = valueN
+- }
+
+Accessing a key:
+- dict_name["keyN"]
+
+Iterating through the dictionary:
+- for key in dictionary_name
+- | print(key)
+- | print(dictionary_name[key])
+
+While loop:
+- while <condition>:
+- |
+- |
+
+### Day 10 - Functions with outputs | Docstring
+Returning a value from a function:
+- def func_name():
+- |
+- |
+- | return <something>
+
+logic operators:
+<x> or <y>
+<x> and <y>
+
+you can return inside a scope:
+- def funct_name():
+- |
+- | if <something>
+- | | return <x>
+- |
+- | return <z>
+
+Well, to keep your functions well documented, you can use DOCSTRING
+- def funct_name(<something>):
+- | """ Receives something and return somethink
+- | yeah
+- | you are beaultiful """
+- |
+- | return <somethink>
+
+well... the code of this day is cool, so... maybe I should review it sometime
+
+### Day 11 - Blackjack project
+<img width="535" height="716" alt="image" src="https://github.com/user-attachments/assets/41ff384d-08b4-42c1-9701-a5eb446390e7" />
+
+### Day 12 - 
+
+
+
+
+
+
+
+
+
