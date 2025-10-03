@@ -263,18 +263,22 @@ creating an object and init method :
 
 turtle module:
 - (GUI module to move a turtle)
+
 Turtle methods:
 - .shape()
 - .color()
 - .foward()
+
 Screen methods:
 - .canvheight()
 - .exitonclick()
 
 preetyTable:
 - (you can make formatted tables)
+
 PreetyTable methods:
 - .add_column()
+
 PreetyTable attributes:
 - .align
 
