@@ -282,5 +282,45 @@ PreetyTable methods:
 PreetyTable attributes:
 - .align
 
+### Day 17 - Quizz game project
+<img width="564" height="232" alt="image" src="https://github.com/user-attachments/assets/9643b5c8-7d6d-476d-8699-32e6feab87c6" />
+
+### Day 18 - Exploring Turtle module
+Turtle methods:
+- .speed()
+- .circle()
+- .heading()
+- .setheading()
+- .pencolor()
+- .penup()
+- .pendown()
+- .fd() -> foward
+- .lt() -> left
+- .right()
+- .goto()
+
+heroes library:
+- (well, dont worry about it)
+
+Colorgram library:
+- you can extract predominant collors from an image
+
+### Day 19
+- Event listeners
+turtle Screen methods:
+- .listen()
+- .onkey()
+- .setup()
+- .textinput()
+- .tracer()
+- .update()
+
+### Day 20-21 - Snake project
+time module:
+- .sleep()
+
+<img width="601" height="631" alt="image" src="https://github.com/user-attachments/assets/52ee845e-7576-417a-a81d-55312fa8b88a" />
+
+
 
 
