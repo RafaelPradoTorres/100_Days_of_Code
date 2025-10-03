@@ -42,7 +42,7 @@ Number mannipulation:
 
 operations:
 - x - y
-- x + y
+- x + y -> can be used to concatenate string
 - x * y
 - x / y
 - x % y
@@ -170,7 +170,11 @@ Accessing a key:
 - dict_name["keyN"]
 
 Iterating through the dictionary:
-- for key in dictionary_name
+- for key in dictionary_name:
+- | print(key)
+- | print(dictionary_name[key])
+
+- for (key, value) in dictionary_name.items():
 - | print(key)
 - | print(dictionary_name[key])
 
@@ -321,6 +325,95 @@ time module:
 
 <img width="601" height="631" alt="image" src="https://github.com/user-attachments/assets/52ee845e-7576-417a-a81d-55312fa8b88a" />
 
+## 4th week
+### Day 22 - Pong
+<img width="803" height="631" alt="image" src="https://github.com/user-attachments/assets/a1a5ee3e-e5b3-491f-aea8-eec0dff609c3" />
 
+### Day 23 - Road Crossing
+<img width="597" height="627" alt="image" src="https://github.com/user-attachments/assets/c802e069-c18c-4915-bf60-6f442e252855" />
 
+### Day 24 - Dealing with files | Inheritance
+- file = open("./file_path/fila_name.ext")
+- content = file.read()
+- file.close()
+
+Another method:
+- with open("./file_path/fila_name.ext", mode=...)
+- | ...
+
+mode can be:
+- "a" -> append
+- "r" -> read (default)
+- "w" -> write (can be used to create a document)
+
+new string method:
+- .split()
+- .replace()
+
+Inheritance / super 
+- class ClassName(SuperName):
+- | def __init__(self):
+- | super().init()
+- | self.att1 = x
+- | ...
+- ...
+- 
+
+### Day 25 - Reading csv
+method:
+- .readlines()
+
+csv module:
+- data = csv.reader(data_file) -> it's cool, but pandas is cooler
+
+pandas module:
+- data = pandas.read_csv(file_name)
+
+accessing a column:
+- one_col = data["colName"]
+- one_col = data.colName
+
+Making a dataframe a dictionary:
+- data.to_dict()
+
+Making a list from a series
+- one_col.to_list()
+
+Other methods in pandas dataFrames:
+- .max()
+- .min()
+- .mean()
+
+Accessing a row:
+- data[data.day == value]
+
+getting one element:
+- monday = data[data.day == "Monday"]
+- monday.temp
+
+Transforming a dictionary in a dataFrame
+- new_df = pandas.DataFrame(<dict>)
+
+dataFrame to csv
+- df.to_csv("new_file_name.csv")
+
+### Day 26 - List and Dictionary comprehension | Iteracting through dataframes
+List comprehension
+- [<new_value> for <item> in <list> if <condition>]
+
+Dictionary comprehension
+- {<new_key: new_value> for <item> in <list>}
+- {<new_key: new_value> for (key, value) in <dict.items()> if <condition>} -> can be used in dataframes =)
+
+Iteractiong dataframes (rows):
+- for (indice, row) in student_data_frame.iterrows():
+- |
+- |
+
+Iteractiong dataframes (columns):
+- for (key, value) in student_data_frame.items():
+- |
+- |
+
+### Day 27 - Arguments in functions
 
