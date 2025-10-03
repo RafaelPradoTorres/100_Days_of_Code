@@ -1,4 +1,4 @@
-# 100 Days of Code (Python) Projects
+# 100 Days of Code (Python) Projects - First Month
 Hii! 👋
 This is a little big portfolio that i'm making while i'm studying the course ministered by Angela Yu
 https://www.udemy.com/course/100-days-of-code/
