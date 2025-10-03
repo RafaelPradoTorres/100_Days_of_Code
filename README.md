@@ -242,10 +242,41 @@ Debugger:
 <img width="454" height="376" alt="image" src="https://github.com/user-attachments/assets/3c49fbab-865b-4c52-a704-4ad4a26d9ee5" />
 
 ## 3rd Week
-### Day 15
+### Day 15 - Coffee machine
+<img width="383" height="501" alt="image" src="https://github.com/user-attachments/assets/bd062169-af89-4b06-91fa-e4b8f96a134e" />
+
+### Day 16 - Intruduction to OOP
+Creating an object:
+- obj_name = ClassName()
+Calling a method:
+- obj_name.method()
+
+creating an object and init method :
+- class ClassName:
+- | def __init__(self, ...)
+- | | self.att1 = x
+- | | self.att2 = y
+- |
+- | def method(self, ...):
+- | |...
 
 
+turtle module:
+- (GUI module to move a turtle)
+Turtle methods:
+- .shape()
+- .color()
+- .foward()
+Screen methods:
+- .canvheight()
+- .exitonclick()
 
+preetyTable:
+- (you can make formatted tables)
+PreetyTable methods:
+- .add_column()
+PreetyTable attributes:
+- .align
 
 
 
