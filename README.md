@@ -415,5 +415,88 @@ Iteractiong dataframes (columns):
 - |
 - |
 
-### Day 27 - Arguments in functions
+### Day 27 - Arguments in functions | tkinter
+Opcional (default) arguments
+- def fun_name(a, b=4, c="oi"):
+- | ...
+
+Unlimited arguments (*args) : -> it's a list
+- def fun_name(*numbers) 
+- | for number in numbers:
+- | | ...
+
+- fun_name(x, y)
+- fun_name(x, y, z, ..., a)
+
+Unlimited key arguments (**kwargs): -> it's a dictionary
+- def fun_name(**kwargs)
+- | for (key, item) in kwargs.items():
+- | | ...
+
+- fun_name(k1='oi', k2=25, ...)
+
+Using key arguments in a class
+- class Car:
+- | def __init__(self, **kw):
+- | | self.make = kw["make"]          -> if doesnt exists, return error
+- | | self.model = kw.get("model")    -> if doesnt exists, return none
+
+
+*Module tkinter*
+
+Tkinter Tk() class:
+- window = tkinter.Tk()
+
+Methods for this class:
+- .title()
+- .minsize()
+- .config()
+- .mainloop()
+
+Tkinter components classes - each has its own methods, so, it may be easier to read the documentation
+- Label(...)
+- Button(...)
+- Entry(...)
+- Text(...)
+- Spinbox(...)
+- Scale(...)
+- Checkbutton(...)
+- Ratiobutton(...)
+- Listbox(...)
+
+- .config()
+
+Methods positioning an object in tkinter:
+- .grid()
+- .pack()
+- .place()
+
+you can pass a function as an argument, but without the parenthesis
+
+### Day 28 - Pomodoro project
+math library:
+- .floor()
+
+tkinter Canva()
+- .itemconfig()
+
+tkinter PhotoImage()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
