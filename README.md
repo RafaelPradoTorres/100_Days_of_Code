@@ -99,6 +99,7 @@ Random module:
 - random() -> float between 0 and 1
 - uniform(x, y) -> float between (including) x and y
 - choice(<list>) -> choose a value in a list
+- choices(<list>, k=<number of itens to return>) -> return a random list (you can set the weight)
 - shuffle(<list>) -> shuffle a list
 
 List:
@@ -210,10 +211,38 @@ well... the code of this day is cool, so... maybe I should review it sometime
 ### Day 11 - Blackjack project
 <img width="535" height="716" alt="image" src="https://github.com/user-attachments/assets/41ff384d-08b4-42c1-9701-a5eb446390e7" />
 
-### Day 12 - 
+### Day 12 - Scopes
+Scopes:
+- Python does not have local scope in loops, conditionals, etc
+- Function Scope
+- Global Scope
 
+- You can define a function inside another function
 
+Modifying a global variable inside a function:
+- def func_name():
+- |
+- | global <var>
+- | ...
 
+Defining a global constant:
+- ALL_IN_CAPS = "value"
+
+### Day 13 - Error handling
+Catching Exceptions
+- try:
+- | <somethin to try>
+- except ValueError:
+- | <something do do>
+
+Debugger:
+- You can set a stop point and use a debugging function in your IDE
+
+### Day 14 - Higher or lower project
+<img width="454" height="376" alt="image" src="https://github.com/user-attachments/assets/3c49fbab-865b-4c52-a704-4ad4a26d9ee5" />
+
+## 3rd Week
+### Day 15
 
 
 
